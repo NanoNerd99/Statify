@@ -1,0 +1,70 @@
+Arguments: 
+  /home/amirmvahed/.nvm/versions/node/v16.14.2/bin/node /home/amirmvahed/.nvm/versions/node/v16.14.2/bin/yarn
+
+PATH: 
+  /home/amirmvahed/anaconda3/condabin:/home/amirmvahed/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/amirmvahed/Desktop/Dashboard/node_modules/.bin:/opt/mssql-tools/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@emotion%2freact: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/home/amirmvahed/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:141517:19)
+      at Object.onceWrapper (node:events:645:28)
+      at ClientRequest.emit (node:events:526:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:758:9)
+      at Object.onceWrapper (node:events:645:28)
+      at TLSSocket.emit (node:events:538:35)
+      at TLSSocket.Socket._onTimeout (node:net:501:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "client",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.10.6",
+      "@emotion/styled": "^11.10.6",
+      "@mui/icons-material": "^5.11.11",
+      "@mui/material": "^5.11.11",
+      "@mui/x-data-grid": "^6.0.0",
+      "@reduxjs/toolkit": "^1.9.3",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-redux": "^8.0.5",
+      "react-router-dom": "^6.8.2",
+      "recharts": "^2.4.3",
+      "regression": "^2.0.1"
+    },
+    "devDependencies": {
+      "@types/node": "^18.14.6",
+      "@types/react": "^18.0.27",
+      "@types/react-dom": "^18.0.11",
+      "@types/regression": "^2.0.2",
+      "@vitejs/plugin-react": "^3.1.0",
+      "eslint": "^8.35.0",
+      "eslint-config-react-app": "^7.0.1",
+      "typescript": "^4.9.3",
+      "vite": "^4.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
